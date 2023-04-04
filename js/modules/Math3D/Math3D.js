@@ -177,11 +177,10 @@ class Math3D {
       const p3 = points[polygon.points[2]];
       const p4 = points[polygon.points[3]];
       polygon.R =
-        (this.calcVectorModule(this.calcVector(center, p1)) +
-          this.calcVectorModule(this.calcVector(center, p2)) +
-          this.calcVectorModule(this.calcVector(center, p3)) +
-          this.calcVectorModule(this.calcVector(center, p4))) /
-        3;
+        this.calcVectorModule(this.calcVector(center, p1)) +
+        this.calcVectorModule(this.calcVector(center, p2)) +
+        this.calcVectorModule(this.calcVector(center, p3)) +
+        this.calcVectorModule(this.calcVector(center, p4));
     });
   }
 
