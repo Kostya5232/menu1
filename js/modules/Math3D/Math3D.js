@@ -181,7 +181,7 @@ class Math3D {
           this.calcVectorModule(this.calcVector(center, p2)) +
           this.calcVectorModule(this.calcVector(center, p3)) +
           this.calcVectorModule(this.calcVector(center, p4))) /
-        4;
+        3;
     });
   }
 
