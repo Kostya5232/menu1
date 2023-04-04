@@ -1,0 +1,30 @@
+body {
+  background-image: url(../img/Fon-body-1.jpg);
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+.hide{
+  display: none;
+}
+#menu{
+  display: flex;
+  margin-top: 0px;
+
+}
+.showMenuItem{
+  border: 5px solid red;
+  border-radius: 5px;
+  background-color: rgb(206, 155, 155);
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  padding-top: 20px;
+  font-size: 2em;
+  font-weight: bold;
+}
+.showMenuItem:hover{
+  background-color: rgb(255, 255, 255);
+}
+.flex{
+  display: flex;
+}
