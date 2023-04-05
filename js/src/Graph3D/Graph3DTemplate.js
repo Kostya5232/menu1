@@ -19,6 +19,7 @@ Template.prototype.Graph3DTemplate = () => `
             <option class='figur' value="TwoWayHyperboloid">Двухполосый гиперболоид</option>
             <option class='figur' value="EllipticalParabaloid">Эллиптический гиперболоид</option>
             <option class='figur' value="ParabalidCylinder">Параболический цилиндр</option>
+            <option class='figur' value="HyperbolicCylinder">Гипербалический цилиндр</option>
             <option class='figur' value="SolarSystem">Солнечная система</option>
 
             
@@ -34,7 +35,7 @@ Template.prototype.Graph3DTemplate = () => `
             <!--<input type="checkbox" class="checkboxGraph" value = 'animationCheckbox' checked>
             <span class="lumenTrue">Аниме</span> -->
 
-            
+            <div id='Elements'></div>
     </div>
       
         

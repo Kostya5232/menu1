@@ -1,42 +1,47 @@
-.canvas3DContain{
-    display: flex;
-    justify-content: center;
-    
+.canvas3DContain {
+  display: flex;
+  justify-content: center;
 }
-#graph3D{
-    margin: auto;
+#graph3D {
+  margin: auto;
 }
-#figures{
-    height: 40px;
-    width: 200px;
-    font-size: 1.7em;
-    text-align: center;
+#figures {
+  height: 40px;
+  width: 200px;
+  font-size: 1.7em;
+  text-align: center;
 }
 #colorFigure {
-    width: 150px;
-    margin-top: 10px;
-    padding: 5px;
-    border-radius: 5px;
-   
-  }
+  width: 150px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
 .paramsFigures {
-    font-size: 1em;
-    width: 300px;
-    height: auto;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    box-sizing: border-box;
-}   
+  font-size: 1em;
+  width: 300px;
+  height: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  box-sizing: border-box;
+}
 #btnFigure {
-    background-color: #274146;
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: bold;
-    font-family: Arial, sans-serif;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-  }
+  background-color: #274146;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+#Elements {
+  max-height: 560px;
+  overflow: auto;
+}
+#Elements::-webkit-scrollbar {
+  width: 0;
+}

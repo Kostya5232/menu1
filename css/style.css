@@ -3,15 +3,14 @@ body {
   background-repeat: no-repeat;
   margin: 0px;
 }
-.hide{
+.hide {
   display: none;
 }
-#menu{
+#menu {
   display: flex;
   margin-top: 0px;
-
 }
-.showMenuItem{
+.showMenuItem {
   border: 5px solid red;
   border-radius: 5px;
   background-color: rgb(206, 155, 155);
@@ -22,9 +21,9 @@ body {
   font-size: 2em;
   font-weight: bold;
 }
-.showMenuItem:hover{
+.showMenuItem:hover {
   background-color: rgb(255, 255, 255);
 }
-.flex{
+.flex {
   display: flex;
 }
