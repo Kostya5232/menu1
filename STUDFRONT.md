@@ -35,9 +35,6 @@
 
 
 
-![1645025920_1-adonius-club-p-rimuru-tempest-art-1](https://github.com/Kostya5232/menu1/assets/83291160/3e78627f-3f01-44e7-aff0-9b84470902c2)
-
-
 
 
 
